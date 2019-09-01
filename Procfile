@@ -1,1 +1,1 @@
-web: gunicorn colregs.wsgi.py --log-file -
+web: gunicorn colregs.wsgi --log-file -
