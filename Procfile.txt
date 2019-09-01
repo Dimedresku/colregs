@@ -1,1 +1,0 @@
-web: gunicorn colregs.wsgi --log-file -
