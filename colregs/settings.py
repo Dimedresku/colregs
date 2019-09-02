@@ -39,10 +39,13 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'flags'
+    'flags',
+    'corsheaders'
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware', 
+    'django.middleware.common.CommonMiddleware', 
     'django.middleware.security.SecurityMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -146,3 +149,6 @@ DATABASES['default'].update(db_from_env)
 import django_heroku
 # Activate Django-Heroku.
 django_heroku.settings(locals())
+
+#CORS_ORIGIN_WHITELIST = ["https://127.0.0.1:3000"]
+CORS_ORIGIN_ALLOW_ALL = True
