@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'flags',
     'corsheaders',
     'signals',
+    'client'
 ]
 
 MIDDLEWARE = [

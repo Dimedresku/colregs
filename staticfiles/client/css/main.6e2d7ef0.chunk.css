@@ -1,0 +1,15 @@
+.buttons{margin-top:10px}
+.answer-list{display:flex;flex-direction:column;align-items:center;background-color:rgba(240,248,255,.9);width:70%;margin-left:15%;padding:1em;border-radius:2%}
+.answer-list-item{border:1px solid #000;cursor:pointer;text-align:left;width:100%}
+.answer-list-item-select,.answer-list-item:hover{background-color:#dcdcdc}
+.score p{font-size:2em;font-weight:700}
+.spinner{width:3rem;height:3rem}img{height:250px;margin-bottom:10px}
+.main-page a{background-color:red;border:1px solid red;border-radius:3px;color:#fff;cursor:pointer;text-decoration:none;margin:5px}
+.main-page a:hover{background:#fff;border:1px solid red;color:red}ul{list-style:none;color:#000;text-align:center}
+.header{display:flex;flex-direction:column;justify-content:center}
+.header a{color:#000;text-decoration:none}
+.header a:hover{font-weight:700}
+.app{align-items:center;font-family:Reilway,sans-serif}
+.app,.content{display:flex;justify-content:center;flex-direction:column;width:100%}
+.content{background-image:url(/static/client/media/shipcrash.fa942d44.jpg);height:900px;background-size:auto 100%;padding:10px;color:red}.content h1{font-weight:700;font-size:4em}@media (max-width:600px) and (min-width:320px){.content{background-size:cover}}
+/*# sourceMappingURL=main.6e2d7ef0.chunk.css.map */

@@ -23,5 +23,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/v1/flag/', include('flags.urls')),
     path('api/v1/signal/', include('signals.urls')),
+    path('', include('client.urls')),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
   
